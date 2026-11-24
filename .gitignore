@@ -1,15 +1,15 @@
-# Dataset files - never upload
+# Data files - never upload datasets
 data/
 
-# Generated output files
-outputs/
-
-# VS Code workspace settings
-.vscode/
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
 
 # Environment files
 .env
